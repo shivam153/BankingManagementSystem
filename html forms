@@ -1,0 +1,75 @@
+<!-- Default form login -->
+<form class="text-center border border-light p-5" action="#!">
+
+    <p class="h4 mb-4">User Login</p>
+
+    <!-- Email -->
+    <input type="text" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Account Id">
+
+    <!-- Password -->
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+    <div class="d-flex justify-content-around">
+        <div>
+            <!-- Remember me -->
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+
+    <!-- Register -->
+    <p>Not a member?
+        <a href="">Register</a>
+  </p>
+
+</form>
+<!-- Default form login -->
+
+
+<!-- New login -->
+<!-- Material form subscription -->
+<div class="card">
+
+    <h5 class="card-header info-color white-text text-center py-4">
+        <strong>Subscribe</strong>
+    </h5>
+
+    <!--Card content-->
+    <div class="card-body px-lg-5">
+
+        <!-- Form -->
+        <form class="text-center" style="color: #757575;" action="#!">
+
+            <p>Join our mailing list. We write rarely, but only the best content.</p>
+
+            <p>
+                <a href="" target="_blank">See the last newsletter</a>
+            </p>
+
+            <!-- Name -->
+            <div class="md-form mt-3">
+                <input type="text" id="materialSubscriptionFormPasswords" class="form-control">
+                <label for="materialSubscriptionFormPasswords">Name</label>
+            </div>
+
+            <!-- E-mai -->
+            <div class="md-form">
+                <input type="email" id="materialSubscriptionFormEmail" class="form-control">
+                <label for="materialSubscriptionFormEmail">E-mail</label>
+            </div>
+
+            <!-- Sign in button -->
+            <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Sign in</button>
+
+        </form>
+        <!-- Form -->
+
+    </div>
+
+</div>
+<!-- Material form subscription -->
